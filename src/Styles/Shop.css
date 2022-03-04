@@ -1,0 +1,88 @@
+#shop-page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 8% 10% 5% 10%;
+  gap: 8%;
+}
+
+#shop-page > * {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 12rem;
+  margin: 10px 0;
+}
+
+.card-description-container {
+  padding: 2px;
+  border: 2px black solid;
+  background-color: white;
+  border-radius: 0.6rem;
+}
+
+.card-description {
+  height: 6rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  overflow-y: scroll;
+}
+
+.card-price {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.quantity {
+  height: 2rem;
+  border: 1px solid black;
+  border-radius: 0.6rem;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black;
+  padding-left: 10px;
+}
+
+.shop-add {
+  height: 2.3rem;
+  border: 1px solid black;
+  border-radius: 2.5rem;
+  background-color: goldenrod;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  box-shadow: 15px 15px 30px black;
+}
+
+.shop-add:hover {
+  cursor: pointer;
+  background-color: gold;
+  color: black;
+}
+
+.shop-add:active {
+  background-color: black;
+  color: white;
+  transform: translateY(4px);
+}
+
+@media screen and (max-width: 1024px) {
+  #shop-page {
+    padding-top: 20%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #shop-page {
+    padding-top: 30%;
+  }
+}

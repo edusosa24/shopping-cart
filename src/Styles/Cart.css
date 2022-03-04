@@ -1,0 +1,282 @@
+#cart-page {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+  padding: 8% 10% 5% 10%;
+}
+
+.cart-items {
+  padding: 5rem 0;
+  left: 5%;
+  top: 30%;
+  position: absolute;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cart-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cart-card > img {
+  width: 25%;
+  height: 25%;
+}
+
+.cart-card > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 1.2rem;
+}
+
+.cart-card > div > p {
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-align: left;
+  font-weight: 500;
+}
+
+.cart-card > div > button {
+  width: 60%;
+  height: 3rem;
+  border-radius: 2.5rem;
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  box-shadow: 20px 20px 50px black;
+}
+
+.cart-card > div > button:hover {
+  cursor: pointer;
+  background-color: red;
+  color: black;
+}
+
+.cart-card > div > button:active {
+  background-color: rgb(212, 33, 33);
+}
+
+.cart-card-quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cart-card-quantity > button {
+  width: 40px;
+  height: 40px;
+  border: 2px black solid;
+  border-radius: 50%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-card-quantity > button:hover {
+  cursor: pointer;
+  border-color: white;
+  background-color: black;
+  color: white;
+}
+
+.cart-card-quantity > input {
+  width: 30%;
+}
+
+.cart-checkout {
+  position: fixed;
+  right: 12%;
+  top: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  width: 25%;
+}
+
+.cart-checkout > p {
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.checkout {
+  width: 80%;
+  height: 5rem;
+  border-radius: 2.5rem;
+  border: none;
+  background-color: white;
+  color: black;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  box-shadow: 20px 20px 50px black;
+}
+
+.empty-cart {
+  width: 80%;
+  height: 5rem;
+  border-radius: 2.5rem;
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  box-shadow: 20px 20px 50px black;
+}
+
+.checkout:hover {
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+
+.empty-cart:hover {
+  cursor: pointer;
+  background-color: red;
+  color: black;
+}
+
+.checkout:active {
+  background-color: rgb(23, 179, 23);
+}
+
+.empty-cart:active {
+  background-color: rgb(212, 33, 33);
+}
+
+@media screen and (max-width: 1000px) {
+  .cart-card > div {
+    gap: 0.8rem;
+  }
+
+  .cart-card > div > p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .cart-card > div {
+    gap: 0.6rem;
+  }
+
+  .cart-card > div > p {
+    font-size: 0.9rem;
+  }
+
+  .cart-card > div > button {
+    font-size: .8rem;
+    height: 2rem;
+  }
+  .cart-card-quantity > button {
+    width: 25px;
+    height: 25px;
+  }
+
+  .checkout{
+    height: 4rem;
+    font-size: 1.4rem;
+  }
+
+  .empty-cart{
+    height: 4rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .cart-card > div {
+    gap: 0.4rem;
+  }
+
+  .cart-card > div > p {
+    font-size: 0.7rem;
+  }
+
+  .cart-card > div > button {
+    font-size: .7rem;
+    height: 1.8rem;
+  }
+  
+  .cart-card-quantity > button {
+    width: 18px;
+    height: 18px;
+  }
+
+  .cart-card-quantity > input{
+    height: 18px;
+    font-size: .6rem;
+  }
+
+  .cart-checkout > p{
+    text-align: center;
+    font-size: 1.3rem;
+  } 
+
+  .checkout{
+    height: 3rem;
+    font-size: 1rem;
+  }
+
+  .empty-cart{
+    height: 3rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #cart-page{
+    flex-direction: column;
+  }
+
+  .cart-items {
+    width: 100%;
+    position: relative;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .cart-checkout{
+    width: 100%;
+    position: relative;
+    align-self: center;
+    justify-self: center;
+    right: auto;
+    top: auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cart-card > div > button {
+    font-size: .5rem;
+    height: 1.4rem;
+  }
+}
+
