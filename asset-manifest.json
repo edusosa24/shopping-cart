@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.9aed46af.css",
+    "main.js": "/shopping-cart/static/js/main.97b82c40.js",
+    "static/media/background.jpg": "/shopping-cart/static/media/background.4336ecd8df4194ae4e34.jpg",
+    "static/media/SliferTheSkyDragon.png": "/shopping-cart/static/media/SliferTheSkyDragon.375f735263a79f6a5994.png",
+    "static/media/ToonDarkMagicianGirl.png": "/shopping-cart/static/media/ToonDarkMagicianGirl.3c7033f5d4f912ed9468.png",
+    "static/media/DarkMagician.png": "/shopping-cart/static/media/DarkMagician.2f89f6635eecd04a0502.png",
+    "static/media/ToonDarkMagician.png": "/shopping-cart/static/media/ToonDarkMagician.b06146b41d1823f01589.png",
+    "static/media/TheWingedDragonOfRa.png": "/shopping-cart/static/media/TheWingedDragonOfRa.72371a69a3441f60edab.png",
+    "static/media/BlueEyesToonDragon.png": "/shopping-cart/static/media/BlueEyesToonDragon.3ed6e4f0a8ca757dfae7.png",
+    "static/media/BlueEyesWhiteDragon.png": "/shopping-cart/static/media/BlueEyesWhiteDragon.439450d1f2afa4d21f72.png",
+    "static/media/RedEyesToonDragon.png": "/shopping-cart/static/media/RedEyesToonDragon.7d2df80482383148501d.png",
+    "static/media/ExodiaTheForbiddenOne.png": "/shopping-cart/static/media/ExodiaTheForbiddenOne.8f7fb7e74cd31c52493a.png",
+    "static/media/ObeliskTheTormentor.png": "/shopping-cart/static/media/ObeliskTheTormentor.1dedcbab0ced8f1de596.png",
+    "static/media/RedEyesBlackDragon.png": "/shopping-cart/static/media/RedEyesBlackDragon.28bb84579d5045949163.png",
+    "static/media/DarkMagicianGirl.png": "/shopping-cart/static/media/DarkMagicianGirl.1e9bbc85fbd9f484e464.png",
+    "static/media/RightLegOfTheForbiddenOne.png": "/shopping-cart/static/media/RightLegOfTheForbiddenOne.4488af73faa35be81978.png",
+    "static/media/LeftArmOfTheForbiddenOne.png": "/shopping-cart/static/media/LeftArmOfTheForbiddenOne.b53ee8b7f7e35ec30be5.png",
+    "static/media/Kuriboh.png": "/shopping-cart/static/media/Kuriboh.0fdd15dcf66749115fac.png",
+    "static/media/RightArmOfTheForbiddenOne.png": "/shopping-cart/static/media/RightArmOfTheForbiddenOne.e65c8fdf9833c262ac33.png",
+    "static/media/LeftLegOfTheForbiddenOne.png": "/shopping-cart/static/media/LeftLegOfTheForbiddenOne.d106fe970fb67374a00c.png",
+    "static/media/cart-shopping-solid.svg": "/shopping-cart/static/media/cart-shopping-solid.a337fd836212a2dccfd6.svg",
+    "index.html": "/shopping-cart/index.html",
+    "main.9aed46af.css.map": "/shopping-cart/static/css/main.9aed46af.css.map",
+    "main.97b82c40.js.map": "/shopping-cart/static/js/main.97b82c40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9aed46af.css",
+    "static/js/main.97b82c40.js"
+  ]
+}
